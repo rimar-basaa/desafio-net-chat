@@ -1,0 +1,174 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {    
+    font-family: 'Roboto', sans-serif;         
+}
+
+.main {
+    display: flex;
+}
+
+/* :::::::::::::::::::::: seccion contactos */
+.contactos {    
+    flex-basis: 16%;   
+    min-width: 200px;    
+}
+
+/* :::::::::::::::::::::: tarjeta usuario */
+.card-user {
+    width: 100%;
+    height: 3.5em;
+    border-bottom: 1px solid #BEC1BB;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.user-state {    
+    display: flex;
+    flex-basis: 100px;
+    justify-content: space-between;      
+}
+
+.card-user-img {
+    width: 30px;
+    height: 30px;
+    background-image: url(../img/maria.jpg);    
+    background-size: cover;
+    border-radius: 15px;
+    border: 1px solid #BEC1BB;
+}
+
+.card-user-info h5{
+    margin: 0;
+    color: #444749;    
+}
+
+.card-user-info p{
+    margin: 0;    
+    font-size: 10px;
+    color: #828485;   
+}
+
+.user-icons i {
+    font-size: 16px;
+    color: #828485;
+}
+
+.fa-message {
+    margin-right: 5px;
+}
+
+/* :::::::::::::::::::::: tarjeta nuevo chat */
+.card-nuevo-chat {
+    width: 100%;
+    height: 6em;
+    border-bottom: 1px solid #BEC1BB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn {
+    width: 60%;
+    height: 40%;
+    background-color: #A491D2;
+    border: 1px solid #A491D2;
+    color: #FFF;
+}
+
+/* :::::::::::::::::::::: tarjeta contacto */
+.card-contact {
+    width: 100%;
+    height: 4em;
+    border-bottom: 1px solid #BEC1BB;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.card-contact-img {
+    width: 40px;
+    height: 40px;    
+    background-size: cover;
+    border: 1px solid #BEC1BB;
+    border-radius: 20px;      
+}
+
+.contact-img1 {
+    background-image: url(../img/screenshot1.jpg);
+}
+.contact-img2 {
+    background-image: url(../img/screenshot2.jpg);
+}
+.contact-img3 {
+    background-image: url(../img/screenshot3.jpg);
+}
+.contact-img4 {
+    background-image: url(../img/screenshot4.jpg);
+}
+.contact-img5 {
+    background-image: url(../img/screenshot5.jpg);
+}
+.contact-img6 {
+    background-image: url(../img/screenshot6.jpg);
+}
+.contact-img7 {
+    background-image: url(../img/screenshot7.jpg);
+}
+.contact-img8 {
+    background-image: url(../img/screenshot8.jpg);
+}
+.contact-img9 {
+    background-image: url(../img/screenshot9.jpg);
+}
+
+.contact-info h5 {
+    margin: 0;
+    font-size: 14px;
+    color: #444749;
+}
+
+.contact-info p {
+    margin: 0;
+    font-size: 12px;
+    color: #444749;
+}
+
+/* :::::::::::::::::::::: seccion principal */
+.principal {
+    height: 42em;
+    width: 85%;
+    background-color: #E8EBE4;
+    border: 1px solid #BEC1BB;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;      
+}
+
+.principal img {
+    width: 20%;
+    min-width: 200px;
+    border-radius: 15px;
+    margin-bottom: 20px;
+}
+
+.principal h1 {
+    margin: 0;
+    font-size: 45px;
+    font-weight: 400;
+}
+
+.principal p {
+    margin: 0;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.principal span {
+    font-weight: 800;
+}
